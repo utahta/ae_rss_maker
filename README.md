@@ -22,11 +22,11 @@ Make News RSS:
 
     rss = AeRssMaker.news(id, password)
 
-Make Kwkm dairy RSS:
+Make Kwkm diary RSS:
 
     rss = AeRssMaker.kwkm(id, password)
 
-Make Momorikobuta dairy RSS:
+Make Momorikobuta diary RSS:
 
     rss = AeRssMaker.momorikobuta(id, password)
 
