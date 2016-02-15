@@ -53,7 +53,7 @@ module AeRssMaker
 
     def date(node)
       elm = node.xpath('./p[@class="date"]')
-      elm.empty? ? '' : elm.text[/[0-9]{4}\/[0-9]{2}\/[0-9]{2}/]
+      elm.empty? ? '' : elm.text[/[0-9]{4}\/[0-9]{2}\/[0-9]{2}/] + ' 00:00:00+09:00'
     end
 
     def description(url)
@@ -63,4 +63,3 @@ module AeRssMaker
     end
   end
 end
-

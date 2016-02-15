@@ -23,3 +23,5 @@ mkmf.log
 .idea
 .rbenv-gemsets
 spec/spec_config.rb
+*.iml
+vendor
